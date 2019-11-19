@@ -1,0 +1,40 @@
+.search-result-table{
+    border: 1px solid black;
+}
+
+.table-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.table-header .table-row{
+    background: #cdcdcd;
+}
+
+.table-body .table-row{
+    cursor: pointer
+}
+
+.table-body .table-row:nth-of-type(odd){
+    background: #eeeeee;
+}
+
+.table-col{
+    width: 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    text-align: center; 
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.avata-img{
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+.table-body{
+    min-height: 50px;   
+}

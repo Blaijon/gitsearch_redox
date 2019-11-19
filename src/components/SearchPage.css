@@ -1,0 +1,28 @@
+.page-search{
+    width: 50%;
+    margin: auto;
+    max-width: 800px;
+}
+
+input{
+    width: 100%;
+    line-height:20px;
+}
+
+.section-search{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.search-btn{
+    margin-top: 20px;
+}
+
+.search-options{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.search-options > div{
+    /* width: calc(100% - 10px); */
+}
